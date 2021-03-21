@@ -15,7 +15,7 @@ that:
 
 ### Treasury Coupon Bonds
 
-<img src="media/image2.png" align="center">
+<img src="media/image2.png" width = "400" align="center">
 
 ### Solution
 
@@ -23,7 +23,8 @@ This problem can be solved by an optimization solver. And in this assignment, I 
 
 ### Step 1 
 
-input data
+input data to dataframe
+
 <img src="media/image3.png" align="center">
 
 ### Step 2 
@@ -87,7 +88,7 @@ Objective <- function(x){
 ### Step 4
 
 ```{r }
-# result for 4 parameters
+# get result for 4 parameters
 Solution1 <- bobyqa(c(0, 0, 0, 2), Objective, lower = c(-1, -1, -1, 1), upper = c(1, 1, 1, 5))
 Solution1$par
 Solution1$value
@@ -96,3 +97,11 @@ Solution2 <- optim(c(0, 0, 0, 2), Objective)
 Solution2$par
 Solution2$value
 ```
+
+### Final Results
+
+<img src="media/image4.png" align="center">
+
+Since the first result gives a smaller deviation, the four parameters in R(0,t) should be:
+
+<img src="media/image5.png" width = "400" align="center">
