@@ -7,7 +7,10 @@
 
 ### Problem
 The European Central Bank reports the Euro yield curve by providing the Nelson-Siegel parameters. Use the functional form of Nelson-Siegel model to estimate the parameters
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$ for the Treasury Coupon Bonds provided below. The Nelson-Siegel model assumes
+&beta;<sub>0</sub>, &beta;<sub>1</sub>, &beta;<sub>2</sub>, &beta;<sub>1</sub>, &tau;<sub>1</sub>
+for the Treasury Coupon Bonds provided below. The Nelson-Siegel model assumes
 that:
+
+<img src="media/image1.png" align="center">
+
+### Treasury Coupon Bonds
