@@ -104,4 +104,10 @@ Solution2$value
 
 Since the first result gives a smaller deviation, the four parameters in R(0,t) should be:
 
-<img src="media/image5.png" align="center">
+&beta;<sub>0</sub> = 0.04331028, 
+
+&beta;<sub>1</sub> = -0.0361984,
+
+&beta;<sub>2</sub> = -0.06537662, 
+
+&tau;<sub>1</sub> = 1.72661601
