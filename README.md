@@ -1,4 +1,4 @@
-# Estimate Nelson Siegel Model Parameters with Treasury Coupon Bonds
+# Estimate Nelson-Siegel Model Parameters with Treasury Coupon Bonds
  
 ### author: Yi Rong
 ### date: 03/21/21
